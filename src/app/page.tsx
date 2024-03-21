@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </b>
       <div>
-        <h3><b>Серия Senritsu Kaiki:</b></h3>
+        <h3><b>Серия Senritsu Kaikiiiiiiii:</b></h3>
       </div>
       <div>
         <a
