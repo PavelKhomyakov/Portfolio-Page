@@ -50,8 +50,8 @@ export default function Home() {
           <div>
             <h3><b>Senritsu Kaiki Files:</b></h3>
           </div>
-          <div>You can watch all Senritsu Kaiki shorts on YouTube with subtitles <a href="https://www.youtube.com/playlist?list=PL85UM6A-okWjZ8B4JL5lqhquYFo95zXrs" target="_blank">here</a>.</div>
-          <div>Previously all movies were translated from RU to ENG without me and with machine translators. Now I re-translated everything by myself (only 4th is in progress), so the quality is higher.</div>
+          <p>You can watch all Senritsu Kaiki shorts on YouTube with subtitles <a href="https://www.youtube.com/playlist?list=PL85UM6A-okWjZ8B4JL5lqhquYFo95zXrs" target="_blank">here</a>.</p>
+          <div>Previously all movies were translated from RU to ENG <mark>without me</mark> and with machine translators. Now I re-translated everything by myself (only 4th is in progress), so the quality is higher.</div>
           <div>All links for the main movies lead to the Russian torrent tracker. But you can download movies from it without any problems. You can get all the english subs             <a
             href="https://mega.nz/folder/E9FCVSbZ#rmzr0tlNmnY3PLN2Y7OtAg"
             target="_blank"
@@ -73,7 +73,7 @@ export default function Home() {
       )}
       <footer>
         <div>
-          <div className="right"><a href="https://twitter.com/s0tar">My Twitter</a></div>
+          <div className="right">Contact: <a href="https://twitter.com/s0tar">Twitter</a></div>
         </div>
       </footer>
     </main>

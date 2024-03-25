@@ -24,14 +24,14 @@ function LanguageCheck({ systemLanguage }: Check) {
     return (
       <>
         <div>{engText}</div>
-        <button id="supportButton">Support</button>
+        <button id="supportButton" className="margin">Support</button>
       </>
     );
   } else {
     return (
       <>
         <div>{rusText}</div>
-        <button id="supportButton">Support</button>
+        <button id="supportButton" className="margin">Support</button>
       </>
     );
   }
