@@ -1,0 +1,30 @@
+"use client";
+import { useEffect } from 'react';
+import { getUserLanguage } from '../app/languageDetect';
+
+export default function ButtonSupport() {
+    const userLanguage = getUserLanguage();
+
+    useEffect(() => {
+        function handleClick() {
+            if (userLanguage === "ru") {
+                window.location.href = 'https://www.tinkoff.ru/cf/80Kkst81WRw';
+            } else {
+                window.location.href = 'https://ko-fi.com/sotar';
+            }
+        }
+
+        const button = document.getElementById('supportButton');
+        if (button) {
+            button.addEventListener('click', handleClick);
+        }
+
+        return () => {
+            if (button) {
+                button.removeEventListener('click', handleClick);
+            }
+        };
+    }, []);
+
+    return null; // This component doesn't render anything
+}

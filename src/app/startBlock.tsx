@@ -1,3 +1,4 @@
+import ButtonSupport from "../lib/supportButton"
 
 interface Check {
   systemLanguage: string | undefined;
@@ -6,11 +7,15 @@ export default function StartBlock() {
   const systemLanguage = process.env.LANG;
 
   return (
-    <LanguageCheck systemLanguage={systemLanguage} />
+    <>
+      <LanguageCheck systemLanguage={systemLanguage} />
+      <ButtonSupport />
+    </>
   );
 }
 
 function LanguageCheck({ systemLanguage }: Check) {
+
   const rusText =
     "Привет. Этот сайт - своеобразное портфолио, где можно отслеживать переводы, которыми я занимаюсь. Уже больше 5 лет я учу японский, и чтобы совершенствовать его, я занимаюсь переводами интересных мне вещей. Я не профессиональный переводчик, работаю один и сам редактирую все свои тексты. Не стоит ждать от них качества уровня профессиональных работ. Я всегда благодарен за критику, поскольку это позволяет мне улучшать мои навыки и совершенствовать переводы. Потому если вы нашли ошибки или хотите предложить что-то — не стесняйтесь писать.";
   const engText =
@@ -19,26 +24,14 @@ function LanguageCheck({ systemLanguage }: Check) {
     return (
       <>
         <div>{engText}</div>
-        <div className="ass">
-          If you wish to make some donations, you can do it{" "}
-          <a href="https://ko-fi.com/sotar" target="_blank">
-            here
-          </a>
-          .
-        </div>
+        <button id="supportButton">Support</button>
       </>
     );
   } else {
     return (
       <>
         <div>{rusText}</div>
-        <div>
-          Если вам понравились мои переводы, то поддержать сайт можно{" "}
-          <a href="https://www.tinkoff.ru/cf/80Kkst81WRw" target="_blank">
-            здесь
-          </a>
-          .
-        </div>
+        <button id="supportButton">Support</button>
       </>
     );
   }
