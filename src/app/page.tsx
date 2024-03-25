@@ -45,7 +45,7 @@ export default function Home() {
       ) : (
         <> {/* English */}
           <div>
-            <h2><center><b>Koji Shiraishi's movies:</b></center></h2>
+            <h2><center><b>Koji Shiraishi&#39;s movies:</b></center></h2>
           </div>
           <div>
             <h3><b>Senritsu Kaiki Files:</b></h3>
