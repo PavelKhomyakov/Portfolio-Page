@@ -1,4 +1,4 @@
-export const worksAndLinks = [
+const worksAndLinks = [
     {
       id: 1,
       link: "https://rutracker.org/forum/viewtopic.php?t=6176424",
@@ -121,13 +121,13 @@ export const worksAndLinks = [
     },
     {
       id: 21,
-      link: "ー",
+      link: "https://rutracker.org/forum/viewtopic.php?t=6467991",
       work: "Senritsu Kaiki World Kowasugi",
       tag: "Kowasugi"
     }
   ];
 
-  export const worksAndLinksEng = [
+ const worksAndLinksEng = [
     {
       id: 1,
       link: "https://rutracker.org/forum/viewtopic.php?t=6176424",
@@ -238,7 +238,7 @@ export const worksAndLinks = [
     },
     {
       id: 19,
-      link: "https://rutracker.org/forum/viewtopic.php?t=6254381",
+      link: "https://nyaa.si/view/1574757",
       work: "Ura Horror",
       tag: "Shiraishi"
     },
@@ -250,8 +250,10 @@ export const worksAndLinks = [
     },
     {
       id: 21,
-      link: "ー",
+      link: "https://rutracker.org/forum/viewtopic.php?t=6467991",
       work: "Senritsu Kaiki World Kowasugi",
       tag: "Kowasugi"
     }
   ];
+
+  export { worksAndLinks, worksAndLinksEng };
