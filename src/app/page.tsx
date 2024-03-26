@@ -14,6 +14,7 @@ export default function Home() {
         </h1>
       </center>
       <StartBlock />
+      <div>{userLanguage}</div>
       {userLanguage === "ru" ? (
         <> {/* Russian */}
           <div>
