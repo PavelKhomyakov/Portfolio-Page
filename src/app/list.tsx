@@ -1,5 +1,6 @@
 import { worksAndLinks, worksAndLinksEng } from '../db/listOfWorks';
 import { getUserLanguage } from '../lib/languageDetect';
+import getUserLocale from 'get-user-locale';
 
 interface Work {
   id: number;
@@ -13,6 +14,7 @@ interface Props {
 }
 
 export default function List({ tag }: Props) {
+  const userLocale = getUserLocale();
   const userLanguage = getUserLanguage();
   let filteredList;
 

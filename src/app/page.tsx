@@ -2,9 +2,11 @@ import styles from "../styles/page.module.css";
 import StartBlock from "./startBlock";
 import List from "./list";
 import { getUserLanguage } from '../lib/languageDetect';
+import getUserLocale from 'get-user-locale';
 
 export default function Home() {
   const userLanguage = getUserLanguage();
+  const userLocale = getUserLocale();
 
   return (
     <main className={styles.main}>
@@ -14,7 +16,7 @@ export default function Home() {
         </h1>
       </center>
       <StartBlock />
-      <div>{userLanguage}</div>
+      <div>{userLocale}</div>
       {userLanguage === "ru" ? (
         <> {/* Russian */}
           <div>
