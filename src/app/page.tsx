@@ -1,7 +1,7 @@
-import styles from "./page.module.css";
+import styles from "../styles/page.module.css";
 import StartBlock from "./startBlock";
 import List from "./list";
-import { getUserLanguage } from './languageDetect';
+import { getUserLanguage } from '../lib/languageDetect';
 
 export default function Home() {
   const userLanguage = getUserLanguage();

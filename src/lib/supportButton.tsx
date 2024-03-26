@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from 'react';
-import { getUserLanguage } from '../app/languageDetect';
+import { getUserLanguage } from './languageDetect';
 
 export default function ButtonSupport() {
     const userLanguage = getUserLanguage();

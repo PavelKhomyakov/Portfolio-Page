@@ -1,5 +1,5 @@
 import { worksAndLinks, worksAndLinksEng } from '../db/listOfWorks';
-import { getUserLanguage } from './languageDetect';
+import { getUserLanguage } from '../lib/languageDetect';
 
 interface Work {
   id: number;
