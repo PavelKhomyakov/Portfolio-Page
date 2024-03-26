@@ -1,7 +1,7 @@
+import { useRouter } from 'next/router';
+
 export function getUserLanguage(): string {
-    if (typeof navigator !== 'undefined') {
-        const userLang = navigator.language;
-        return userLang.split('-')[0]; // Extract the language code (e.g., 'en' from 'en-US')
-    }
-    return 'default'; // Fallback to a default language
+    const router = useRouter();
+    const { locale } = router;
+    return locale || 'default';
 }
