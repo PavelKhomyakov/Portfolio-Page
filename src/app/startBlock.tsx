@@ -31,7 +31,7 @@ function LanguageCheck({ systemLanguage }: Check) {
     return (
       <>
         <div>{rusText}</div>
-        <button id="supportButton" className="margin">Support</button>
+        <button id="supportButton" className="margin">Поддержать</button>
       </>
     );
   }
