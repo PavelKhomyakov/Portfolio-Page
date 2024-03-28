@@ -6,7 +6,7 @@ import { getUserLanguage } from '../lib/languageDetect';
 export default function Home() {
   const userLanguage = getUserLanguage();
   let locale = Intl.DateTimeFormat().resolvedOptions().locale;
-console.log('locale:', locale);
+  console.log('locale:', locale);
 
   return (
     <main className={styles.main}>
