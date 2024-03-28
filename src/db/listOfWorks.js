@@ -124,6 +124,12 @@ const worksAndLinks = [
     link: "https://rutracker.org/forum/viewtopic.php?t=6467991",
     work: "До Ужаса Страшный и Странный Мир / Senritsu Kaiki World Kowasugi",
     tag: "Kowasugi"
+  },
+  {
+    id: 22,
+    link: "",
+    work: "Ultra Violent People",
+    tag: "Shiraishi"
   }
 ];
 
@@ -245,7 +251,7 @@ const worksAndLinksEng = [
   {
     id: 20,
     link: "https://mega.nz/folder/JksigS6L#mNZLh_Y4vL3XQy1DvkL7qw",
-    work: "Short Zetsuosore Taikan Kimodameshi",
+    work: "Shorts 「Zetsuosore Taikan Kimodameshi」",
     tag: "Shiraishi"
   },
   {
@@ -258,6 +264,12 @@ const worksAndLinksEng = [
     id: 22,
     link: "",
     work: "Noroi Removed Scenes",
+    tag: "Shiraishi"
+  },
+  {
+    id: 23,
+    link: "",
+    work: "Ultra Violent People",
     tag: "Shiraishi"
   }
 ];

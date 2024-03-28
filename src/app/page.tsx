@@ -5,6 +5,8 @@ import { getUserLanguage } from '../lib/languageDetect';
 
 export default function Home() {
   const userLanguage = getUserLanguage();
+  let locale = Intl.DateTimeFormat().resolvedOptions().locale;
+console.log('locale:', locale);
 
   return (
     <main className={styles.main}>
@@ -15,6 +17,7 @@ export default function Home() {
       </center>
       <StartBlock />
       <div>{userLanguage}</div>
+      <div>{locale}</div>
       {userLanguage === "ru" ? (
         <> {/* Russian */}
           <div>
