@@ -8,7 +8,5 @@ export function getUserLanguage() {
     const langCode = userLang ? userLang.split('_')[0] : 'amogus'; // デフォルトは英語F
     console.log('Language:', userLang);
     return userLang;
-  } else {
-    return "ass"
   }
 }
