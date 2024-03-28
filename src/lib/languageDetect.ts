@@ -1,4 +1,3 @@
-"Use Client";
 export function getUserLanguage() {
   // ユーザーの言語を取得
   if (typeof window !== 'undefined') {
