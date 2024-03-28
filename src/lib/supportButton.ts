@@ -7,7 +7,7 @@ export default function ButtonSupport() {
 
     useEffect(() => {
         function handleClick() {
-            if (userLanguage === "ru-RU") {
+            if (userLanguage === "ru") {
                 window.location.href = 'https://www.tinkoff.ru/cf/80Kkst81WRw';
             } else {
                 window.location.href = 'https://ko-fi.com/sotar';

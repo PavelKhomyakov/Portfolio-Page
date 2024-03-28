@@ -16,7 +16,7 @@ export default function List({ tag }: Props) {
   const userLanguage = getUserLanguage();
   let filteredList;
 
-  if (userLanguage === "ru-RU") {
+  if (userLanguage === "ru") {
     filteredList = worksAndLinks.filter((work: Work) => work.tag === tag);
   } else {
     filteredList = worksAndLinksEng.filter((work: Work) => work.tag === tag);
