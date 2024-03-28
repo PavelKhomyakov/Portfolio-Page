@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
       </center>
       <StartBlock />
-      {userLanguage === "ru-RU" ? (
+      {userLanguage === "ru" ? (
         <> {/* Russian */}
           <div>
             <h2><center><b>Фильмы Кодзи Сираиси:</b></center></h2>
