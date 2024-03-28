@@ -1,3 +1,4 @@
+"Use Client";
 import { worksAndLinks, worksAndLinksEng } from '../db/listOfWorks';
 import { getUserLanguage } from '../lib/languageDetect';
 

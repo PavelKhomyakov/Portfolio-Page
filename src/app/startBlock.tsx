@@ -1,3 +1,4 @@
+"Use Client";
 import ButtonSupport from "../lib/supportButton"
 import { getUserLanguage } from '../lib/languageDetect';
 
