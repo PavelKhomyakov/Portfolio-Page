@@ -20,7 +20,7 @@ export default function Home() {
       
       <div>{userLanguage}</div>
       <div>{locale}</div>
-      {userLanguage != "en-US" ? (
+      {userLanguage === "ru-RU" ? (
         <> {/* Russian */}
           <div>
             <h2><center><b>Фильмы Кодзи Сираиси:</b></center></h2>
