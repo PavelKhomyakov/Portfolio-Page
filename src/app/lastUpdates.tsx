@@ -17,7 +17,7 @@ const LatestNewsButton = () => {
                 {showModal && (
                     <div className='marginSmall'>
                         <i>
-                            <p><b>29.03.2024</b> ー Обнаружил, что в субтитрах к "Mystery Man" есть логические ошибки. Исправлю в ближайшее время.</p>
+                            <p><b>29.03.2024</b> ー Обнаружил, что в субтитрах к &quot;Mystery Man&quot; есть логические ошибки. Исправлю в ближайшее время.</p>
                             <p><b></b></p>
                         </i>
                     </div>
@@ -33,7 +33,7 @@ const LatestNewsButton = () => {
                 {showModal && (
                     <div className='marginSmall'>
                         <i>
-                            <p><b>29.03.2024</b> ー Found out that subs for "Mystery Man" have some logic mistakes. Will fix shortly.</p>
+                            <p><b>29.03.2024</b> ー Found out that subs for &quot;Mystery Man&quot; have some logic mistakes. Will fix shortly.</p>
                             <p><b></b></p>
                         </i>
                     </div>
