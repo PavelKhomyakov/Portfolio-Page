@@ -6,6 +6,7 @@ import List from "./list";
 import { getUserLanguage } from '../lib/languageDetect';
 import LatestNewsButton from './lastUpdates';
 import { home, language } from "../lib/enums";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const userLanguage = getUserLanguage();
