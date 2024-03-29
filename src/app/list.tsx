@@ -1,5 +1,6 @@
 import { worksAndLinks, worksAndLinksEng } from '../db/listOfWorks';
 import { getUserLanguage } from '../lib/languageDetect';
+import { language } from "../lib/enums";
 
 interface Work {
   id: number;
@@ -16,7 +17,7 @@ export default function List({ tag }: Props) {
   const userLanguage = getUserLanguage();
   let filteredList;
 
-  if (userLanguage === "ru") {
+  if (userLanguage === language.RUSSIAN) {
     filteredList = worksAndLinks.filter((work: Work) => work.tag === tag);
   } else {
     filteredList = worksAndLinksEng.filter((work: Work) => work.tag === tag);

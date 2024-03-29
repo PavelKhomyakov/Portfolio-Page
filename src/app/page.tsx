@@ -5,29 +5,29 @@ import StartBlock from "./startBlock";
 import List from "./list";
 import { getUserLanguage } from '../lib/languageDetect';
 import LatestNewsButton from './lastUpdates';
-
+import { home, language } from "../lib/enums";
 
 export default function Home() {
   const userLanguage = getUserLanguage();
+  const isRussian = userLanguage === language.RUSSIAN;
 
   return (
     <main className={styles.main}>
       <center>
         <h1>
-          <div>Translated by SOTAR</div>
+          <div>{home.SITE_NAME}</div>
         </h1>
       </center>
       <StartBlock />
       <LatestNewsButton />
-      {userLanguage === "ru" ? (
+      <div>
+        <h2><center><b>{isRussian ? home.HEADER_RU : home.HEADER_ENG}</b></center></h2>
+      </div>
+      <div>
+        <h3><b>{isRussian ? home.SENRITSU_RU : home.SENRITSU_ENG}</b></h3>
+      </div>
+      {isRussian ? (
         <> {/* Russian */}
-          <div>
-            <h2><center><b>Фильмы Кодзи Сираиси:</b></center></h2>
-          </div>
-          <div>
-
-            <h3><b>Серия Senritsu Kaiki:</b></h3>
-          </div>
           <div>
             <a
               href="https://mega.nz/folder/MlFFyKoY#uzLR6ETqf0Oj8jrgwXh-Qw"
@@ -36,28 +36,9 @@ export default function Home() {
               Ссылка на субтитры для всех фильмов отдельно
             </a>
           </div>
-          <List tag="Kowasugi" />
-
-          <div>
-            <h3><b>Остальное:</b></h3>
-          </div>
-          <List tag="Shiraishi" />
-
-          <div>
-            <h3><b>В процессе:</b></h3>
-          </div>
-          <ul><li>ー</li></ul>
-
         </>
       ) : (
         <> {/* English */}
-          <div>
-            <h2><center><b>Koji Shiraishi&#39;s movies:</b></center></h2>
-          </div>
-
-          <div>
-            <h3><b>Senritsu Kaiki Files:</b></h3>
-          </div>
           <p>You can watch all Senritsu Kaiki shorts on YouTube with subtitles <a href="https://www.youtube.com/playlist?list=PL85UM6A-okWjZ8B4JL5lqhquYFo95zXrs" target="_blank">here</a>.</p>
           <div>Previously all movies were translated from RU to ENG <mark>without me</mark> and with machine translators. Now I re-translated everything by myself (only 4th is in progress), so the quality is higher.</div>
           <div>All links for the main movies lead to the Russian torrent tracker. But you can download movies from it without any problems. You can get all the english subs             <a
@@ -66,20 +47,17 @@ export default function Home() {
           >
             here
           </a>.</div>
-          <List tag="Kowasugi" />
-
-          <div>
-            <h3><b>Other Movies:</b></h3>
-          </div>
-          <List tag="Shiraishi" />
-
-          <div>
-            <h3><b>In Process:</b></h3>
-          </div>
-          <ul><li>ー</li></ul>
-
         </>
       )}
+      <List tag="Kowasugi" />
+      <div>
+        <h3><b>{isRussian ? home.OTHER_RU : home.OTHER_ENG}</b></h3>
+      </div>
+      <List tag="Shiraishi" />
+      <div>
+        <h3><b>{isRussian ? home.PROCESS_RU : home.PROCESS_ENG}</b></h3>
+      </div>
+      <ul><li>ー</li></ul>
 
       <footer>
         <div>

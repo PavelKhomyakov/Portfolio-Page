@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { getUserLanguage } from '../lib/languageDetect';
+import { language, updates } from "../lib/enums"
 
 const LatestNewsButton = () => {
     const userLanguage = getUserLanguage();
@@ -8,11 +9,11 @@ const LatestNewsButton = () => {
     const toggleNewsModal = () => {
         setShowModal(!showModal);
     };
-    if (userLanguage === "ru") {
+    if (userLanguage === language.RUSSIAN) {
         return (
             <div>
                 <button className='buttonNews' onClick={toggleNewsModal}>
-                    {showModal ? 'Закрыть' : 'Последние обновления'}
+                    {showModal ? updates.CLOSE_RU : updates.UPDATES_RU}
                 </button>
                 {showModal && (
                     <div className='marginSmall'>
@@ -28,7 +29,7 @@ const LatestNewsButton = () => {
         return (
             <div>
                 <button className='buttonNews' onClick={toggleNewsModal}>
-                    {showModal ? 'Close Updates' : 'Latest Updates'}
+                    {showModal ? updates.CLOSE_ENG : updates.UPDATES_ENG}
                 </button>
                 {showModal && (
                     <div className='marginSmall'>

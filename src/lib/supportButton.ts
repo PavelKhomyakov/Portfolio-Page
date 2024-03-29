@@ -1,13 +1,13 @@
 "use client";
 import { useEffect } from 'react';
 import { getUserLanguage } from './languageDetect';
-
+import { language } from "../lib/enums"
 export default function ButtonSupport() {
     const userLanguage = getUserLanguage();
 
     useEffect(() => {
         function handleClick() {
-            if (userLanguage === "ru") {
+            if (userLanguage === language.RUSSIAN) {
                 window.location.href = 'https://www.tinkoff.ru/cf/80Kkst81WRw';
             } else {
                 window.location.href = 'https://ko-fi.com/sotar';
