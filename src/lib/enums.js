@@ -1,14 +1,14 @@
 export const home = {
     SITE_NAME: "Translated by SOTAR",
-    HEADER_RU: "Фильмы Кодзи Сираиси:",
-    HEADER_ENG: "Koji Shiraishi's movies:",
-    SENRITSU_RU: "Серия Senritsu Kaiki:",
-    SENRITSU_ENG: "Senritsu Kaiki Files:",
-    OTHER_RU: "Остальное:",
-    OTHER_ENG: "Other Movies:",
-    PROCESS_RU: "В процессе:",
-    PROCESS_ENG: "In Process:"
-  };
+    HEADER_RU: "Фильмы Кодзи Сираиси",
+    HEADER_ENG: "Koji Shiraishi's movies",
+    SENRITSU_RU: "Серия Senritsu Kaiki",
+    SENRITSU_ENG: "Senritsu Kaiki Files",
+    OTHER_RU: "Остальное",
+    OTHER_ENG: "Other Movies",
+    PROCESS_RU: "В процессе",
+    PROCESS_ENG: "In Process"
+};
 
 export const start = {
     START_RU: "Привет. Этот сайт - своеобразное портфолио, где можно отслеживать переводы, которыми я занимаюсь. Уже больше 5 лет я учу японский, и чтобы совершенствовать его, я занимаюсь переводами интересных мне вещей. Я не профессиональный переводчик, работаю один и сам редактирую все свои тексты. Не стоит ждать от них качества уровня профессиональных работ. Я всегда благодарен за критику, поскольку это позволяет мне улучшать мои навыки и совершенствовать переводы. Потому если вы нашли ошибки или хотите предложить что-то — не стесняйтесь писать.",
