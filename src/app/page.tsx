@@ -16,12 +16,14 @@ export default function Home() {
         </h1>
       </center>
       <StartBlock />
+
       {userLanguage === "ru" ? (
         <> {/* Russian */}
           <div>
             <h2><center><b>Фильмы Кодзи Сираиси:</b></center></h2>
           </div>
           <div>
+
             <h3><b>Серия Senritsu Kaiki:</b></h3>
           </div>
           <div>
@@ -33,22 +35,24 @@ export default function Home() {
             </a>
           </div>
           <List tag="Kowasugi" />
+
           <div>
             <h3><b>Остальное:</b></h3>
           </div>
           <List tag="Shiraishi" />
-          <b>
-            <div>
-              <h3><b>В процессе:</b></h3>
-            </div>
-            <ul><li>ー</li></ul>
-          </b>
+
+          <div>
+            <h3><b>В процессе:</b></h3>
+          </div>
+          <ul><li>ー</li></ul>
+
         </>
       ) : (
         <> {/* English */}
           <div>
             <h2><center><b>Koji Shiraishi&#39;s movies:</b></center></h2>
           </div>
+
           <div>
             <h3><b>Senritsu Kaiki Files:</b></h3>
           </div>
@@ -61,19 +65,20 @@ export default function Home() {
             here
           </a>.</div>
           <List tag="Kowasugi" />
-          
+
           <div>
             <h3><b>Other Movies:</b></h3>
           </div>
           <List tag="Shiraishi" />
-          <b>
-            <div>
-              <h3><b>In Process:</b></h3>
-            </div>
-            <ul><li>ー</li></ul>
-          </b>
+
+          <div>
+            <h3><b>In Process:</b></h3>
+          </div>
+          <ul><li>ー</li></ul>
+
         </>
       )}
+
       <footer>
         <div>
           <div className="right">Contact: <a href="https://twitter.com/s0tar">Twitter</a></div>
