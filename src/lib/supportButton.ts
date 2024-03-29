@@ -12,6 +12,8 @@ export default function ButtonSupport() {
             } else {
                 window.location.href = 'https://ko-fi.com/sotar';
             }
+            const clickCount = parseInt(localStorage.getItem('supportButtonCount') || '0') + 1;
+            localStorage.setItem('supportButtonCount', clickCount.toString());
         }
 
         const button = document.getElementById('supportButton');

@@ -622,5 +622,13 @@ button:not(:disabled):active:after,
   text-align: right;
 }
 .margin {
-  margin-top: 20px
+  margin-top: 20px;
+}
+.marginSmall {
+  margin-top: 10px;
+}
+
+.buttonNews {
+  width: 100%;
+  margin-top: 10px;
 }
