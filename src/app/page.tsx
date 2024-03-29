@@ -64,6 +64,7 @@ export default function Home() {
         <div>
           <div className="right">Contact: <a href="https://twitter.com/s0tar">Twitter</a></div>
         </div>
+        <Analytics/>
       </footer>
     </main>
   );
