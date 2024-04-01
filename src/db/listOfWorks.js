@@ -130,6 +130,12 @@ const worksAndLinks = [
     link: "",
     work: "Ultra Violent People",
     tag: "Shiraishi"
+  },
+  {
+    id: 23,
+    link: "",
+    work: "Koji Shiraishi no Kimyou Kitan",
+    tag: "Shiraishi"
   }
 ];
 
@@ -270,6 +276,12 @@ const worksAndLinksEng = [
     id: 23,
     link: "",
     work: "Ultra Violent People",
+    tag: "Shiraishi"
+  },
+  {
+    id: 24,
+    link: "",
+    work: "Koji Shiraishi no Kimyou Kitan",
     tag: "Shiraishi"
   }
 ];
