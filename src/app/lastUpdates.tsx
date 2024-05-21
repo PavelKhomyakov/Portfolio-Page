@@ -19,7 +19,7 @@ const LatestNewsButton = () => {
                     <div className='marginSmall'>
                         <i>
                             <p><b>29.03.2024</b> ー Обнаружил, что в субтитрах к &quot;Mystery Man&quot; есть логические ошибки. Исправлю в ближайшее время.</p>
-                            <p><b>21.05.2014</b> ー Субтитры к фильму "Never Send Me", Please добавлены</p>
+                            <p><b>21.05.2014</b> ー Субтитры к фильму &quot;Never Send Me&quot;, Please добавлены</p>
                         </i>
                     </div>
                 )}
@@ -35,7 +35,7 @@ const LatestNewsButton = () => {
                     <div className='marginSmall'>
                         <i>
                             <p><b>29.03.2024</b> ー Found out that subs for &quot;Mystery Man&quot; have some logic mistakes. Will fix shortly.</p>
-                            <p><b>21.05.2014</b> ー Added subs for a movie "Never Send Me, Please".</p>
+                            <p><b>21.05.2014</b> ー Added subs for a movie &quot;Never Send Me, Please&quot;.</p>
                         </i>
                     </div>
                 )}
