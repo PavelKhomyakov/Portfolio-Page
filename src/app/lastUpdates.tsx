@@ -19,7 +19,7 @@ const LatestNewsButton = () => {
                     <div className='marginSmall'>
                         <i>
                             <p><b>29.03.2024</b> ー Обнаружил, что в субтитрах к &quot;Mystery Man&quot; есть логические ошибки. Исправлю в ближайшее время.</p>
-                            <p><b>21.05.2014</b> ー Субтитры к фильму &quot;Never Send Me&quot;, Please добавлены</p>
+                            <p><b>21.05.2014</b> ー Субтитры к фильму &quot;Never Send Me, Please&quot; добавлены</p>
                         </i>
                     </div>
                 )}
