@@ -139,7 +139,7 @@ const worksAndLinks = [
   },
   {
     id: 24,
-    link: "https://mega.nz/file/EgUE3KSQ#nkzqSnpO0t1KhvynVkha7jpui0hF6ARSzRZAcqzjOzI",
+    link: "https://mega.nz/folder/h48HTYiA#9ZOdEWdoTK5qG8HvO37PTw",
     work: "Never Send Me, Please",
     tag: "Shiraishi"
   }
@@ -292,7 +292,7 @@ const worksAndLinksEng = [
   },
   {
     id: 25,
-    link: "https://mega.nz/file/l9EBXRoY#zf3pIDiIAHQzw_KjcO3BeKvoCDAHVGB9O08z2CMzo7o",
+    link: "https://mega.nz/folder/h48HTYiA#9ZOdEWdoTK5qG8HvO37PTw",
     work: "Never Send Me, Please",
     tag: "Shiraishi"
   }
