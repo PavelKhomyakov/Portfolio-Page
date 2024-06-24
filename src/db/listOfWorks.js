@@ -127,7 +127,7 @@ const worksAndLinks = [
   },
   {
     id: 22,
-    link: "",
+    link: "https://mega.nz/file/sl0X0QIL#FrjH9HO5w--_5Y0B0xVs3MLWOeKWooAwV3PZEuDnWmA",
     work: "Ultra Violent People",
     tag: "Shiraishi"
   },
@@ -141,6 +141,12 @@ const worksAndLinks = [
     id: 24,
     link: "https://mega.nz/folder/h48HTYiA#9ZOdEWdoTK5qG8HvO37PTw",
     work: "Never Send Me, Please",
+    tag: "Shiraishi"
+  },
+  {
+    id: 25,
+    link: "https://www.youtube.com/playlist?list=PL2eyqNDLmhdeseCFWvv1VQKVI7YQ-AD1q",
+    work: "Noroi Removed Scenes",
     tag: "Shiraishi"
   }
 ];
@@ -274,13 +280,13 @@ const worksAndLinksEng = [
   },
   {
     id: 22,
-    link: "",
+    link: "https://www.youtube.com/playlist?list=PL2eyqNDLmhdeseCFWvv1VQKVI7YQ-AD1q",
     work: "Noroi Removed Scenes",
     tag: "Shiraishi"
   },
   {
     id: 23,
-    link: "",
+    link: "https://mega.nz/file/Jl0iia6B#nAIUgS7aK84DShTNOg28CJTuhY_GQ4RlW7LKDQT9LNg",
     work: "Ultra Violent People",
     tag: "Shiraishi"
   },
