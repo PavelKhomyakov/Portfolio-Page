@@ -18,9 +18,9 @@ const LatestNewsButton = () => {
                 {showModal && (
                     <div className='marginSmall'>
                         <i>
-                            <p><b>29.03.2024</b> ー Обнаружил, что в субтитрах к &quot;Mystery Man&quot; есть логические ошибки. Исправлю в ближайшее время.</p>
-                            <p><b>21.05.2024</b> ー Субтитры к фильму &quot;Never Send Me, Please&quot; добавлены</p>
-                            <p><b>24.06.2024</b> ー Исправил ссылки. Сейчас нет ссылки только для Kimyou Kitan. Будет позже.</p>
+                            <p><b>29.03.2024</b> ー Обнаружил, что в субтитрах к 「Mystery Man」 есть логические ошибки. Исправлю в ближайшее время.</p>
+                            <p><b>21.05.2024</b> ー Субтитры к фильму 「Never Send Me, Please」 добавлены</p>
+                            <p><b>24.06.2024</b> ー Исправил ссылки. Сейчас нет ссылки только для 「Kimyou Kitan」. Будет позже.</p>
                         </i>
                     </div>
                 )}
@@ -35,9 +35,9 @@ const LatestNewsButton = () => {
                 {showModal && (
                     <div className='marginSmall'>
                         <i>
-                            <p><b>29.03.2024</b> ー Found out that subs for &quot;Mystery Man&quot; have some logic mistakes. Will fix shortly.</p>
-                            <p><b>21.05.2024</b> ー Added subs for a movie &quot;Never Send Me, Please&quot;.</p>
-                            <p><b>24.06.2024</b> ー Fixed some links. Now only Kimyou Kitan link is missing, will be added later.</p>
+                            <p><b>29.03.2024</b> ー Found out that subs for 「Mystery Man」 have some logic mistakes. Will fix shortly.</p>
+                            <p><b>21.05.2024</b> ー Added subs for a movie 「Never Send Me, Please」.</p>
+                            <p><b>24.06.2024</b> ー Fixed some links. Now only 「Kimyou Kitan」 link is missing, will be added later.</p>
                         </i>
                     </div>
                 )}
