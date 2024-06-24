@@ -134,7 +134,7 @@ const worksAndLinks = [
   {
     id: 23,
     link: "",
-    work: "Koji Shiraishi no Kimyou Kitan",
+    work: "Короткометражки Koji Shiraishi no Kimyou Kitan",
     tag: "Shiraishi"
   },
   {
