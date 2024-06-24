@@ -146,7 +146,7 @@ const worksAndLinks = [
   {
     id: 25,
     link: "https://www.youtube.com/playlist?list=PL2eyqNDLmhdeseCFWvv1VQKVI7YQ-AD1q",
-    work: "Noroi Removed Scenes",
+    work: "Удаленные сцены из Noroi",
     tag: "Shiraishi"
   }
 ];
