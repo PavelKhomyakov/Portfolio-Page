@@ -59,7 +59,9 @@ export default function Home() {
         <h3><b>{isRussian ? home.PROCESS_RU : home.PROCESS_ENG}:</b></h3>
       </div>
       <ul>
-        <li>ー</li>
+        <li>SINoALICE Movie</li>
+        <li>Satsujin Workshop</li>
+        <li>Senritsu Kaiki shorst re-translation</li>
       </ul>
 
       <footer>
