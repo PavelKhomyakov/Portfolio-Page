@@ -61,7 +61,7 @@ export default function Home() {
       <ul>
         <li>SINoALICE Movie</li>
         <li>Satsujin Workshop</li>
-        <li>Senritsu Kaiki shorst re-translation</li>
+        <li>Senritsu Kaiki shorts re-translation</li>
       </ul>
 
       <footer>
