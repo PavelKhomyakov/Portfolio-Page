@@ -148,6 +148,12 @@ const worksAndLinks = [
     link: "https://www.youtube.com/playlist?list=PL2eyqNDLmhdeseCFWvv1VQKVI7YQ-AD1q",
     work: "Удаленные сцены из Noroi",
     tag: "Shiraishi"
+  },
+  {
+    id: 26,
+    link: "",
+    work: "Sadako Pendant of Mourning / 貞子～弔いのペンダント～",
+    tag: "Other"
   }
 ];
 
@@ -301,6 +307,12 @@ const worksAndLinksEng = [
     link: "https://mega.nz/folder/h48HTYiA#9ZOdEWdoTK5qG8HvO37PTw",
     work: "Never Send Me, Please",
     tag: "Shiraishi"
+  },
+  {
+    id: 26,
+    link: "",
+    work: "Sadako Pendant of Mourning / 貞子～弔いのペンダント～",
+    tag: "Other"
   }
 ];
 
