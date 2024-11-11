@@ -52,9 +52,13 @@ export default function Home() {
       )}
       <List tag="Kowasugi" />
       <div>
-        <h3><b>{isRussian ? home.OTHER_RU : home.OTHER_ENG}:</b></h3>
+        <h3><b>{isRussian ? home.SHIRA_RU : home.SHIRA_ENG}:</b></h3>
       </div>
       <List tag="Shiraishi" />
+      <div>
+        <h3><b>{isRussian ? home.OTHER_RU : home.OTHER_ENG}:</b></h3>
+      </div>
+      <List tag="Other" />
       <div>
         <h3><b>{isRussian ? home.PROCESS_RU : home.PROCESS_ENG}:</b></h3>
       </div>

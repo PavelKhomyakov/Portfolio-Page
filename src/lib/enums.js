@@ -4,6 +4,8 @@ export const home = {
     HEADER_ENG: "Koji Shiraishi's movies",
     SENRITSU_RU: "Серия Senritsu Kaiki",
     SENRITSU_ENG: "Senritsu Kaiki Files",
+    SHIRA_RU: "Сираиси",
+    SHIRA_ENG: "Shiraishi's Movies",
     OTHER_RU: "Остальное",
     OTHER_ENG: "Other Movies",
     PROCESS_RU: "В процессе",
