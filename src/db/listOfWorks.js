@@ -151,7 +151,7 @@ const worksAndLinks = [
   },
   {
     id: 26,
-    link: "",
+    link: "https://mega.nz/folder/lkUn2KAA#EOeR0DfXlhAZl33v150vcw",
     work: "Sadako Pendant of Mourning / 貞子～弔いのペンダント～",
     tag: "Other"
   }
@@ -310,7 +310,7 @@ const worksAndLinksEng = [
   },
   {
     id: 26,
-    link: "",
+    link: "https://mega.nz/folder/lkUn2KAA#EOeR0DfXlhAZl33v150vcw",
     work: "Sadako Pendant of Mourning / 貞子～弔いのペンダント～",
     tag: "Other"
   }
