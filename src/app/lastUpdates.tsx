@@ -22,6 +22,7 @@ const LatestNewsButton = () => {
                             <p><b>21.05.2024</b> ー Субтитры к фильму 「Never Send Me, Please」 добавлены</p>
                             <p><b>24.06.2024</b> ー Исправил ссылки. Сейчас нет ссылки только для 「Kimyou Kitan」. Будет позже.</p>
                             <p><b>11.11.2024</b> ー Перевел фильм Sadako Pendant of Mourning.</p>
+                            <p><b>22.11.2024</b> ー Перевел фильм Murder Workshop.</p>
                         </i>
                     </div>
                 )}
@@ -40,6 +41,7 @@ const LatestNewsButton = () => {
                             <p><b>21.05.2024</b> ー Added subs for a movie 「Never Send Me, Please」.</p>
                             <p><b>24.06.2024</b> ー Fixed some links. Now only 「Kimyou Kitan」 link is missing, will be added later.</p>
                             <p><b>11.11.2024</b> ー Sadako Pendant of Mourning translated.</p>
+                            <p><b>22.11.2024</b> ー Murder Workshop translated.</p>
                         </i>
                     </div>
                 )}

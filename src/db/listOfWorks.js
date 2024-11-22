@@ -154,6 +154,12 @@ const worksAndLinks = [
     link: "https://mega.nz/folder/lkUn2KAA#EOeR0DfXlhAZl33v150vcw",
     work: "Sadako Pendant of Mourning / 貞子～弔いのペンダント～",
     tag: "Other"
+  },
+  {
+    id: 27,
+    link: "https://mega.nz/folder/h5F0gCQA#Lz32CLgBuFoKccxbQar3XQ",
+    work: "Мастер-класс по убийствам / Murder Workshop / 殺人ワークショップ",
+    tag: "Shiraishi"
   }
 ];
 
@@ -313,6 +319,12 @@ const worksAndLinksEng = [
     link: "https://mega.nz/folder/lkUn2KAA#EOeR0DfXlhAZl33v150vcw",
     work: "Sadako Pendant of Mourning / 貞子～弔いのペンダント～",
     tag: "Other"
+  },
+  {
+    id: 27,
+    link: "https://mega.nz/folder/h5F0gCQA#Lz32CLgBuFoKccxbQar3XQ",
+    work: "Murder Workshop / 殺人ワークショップ",
+    tag: "Shiraishi"
   }
 ];
 

@@ -64,8 +64,8 @@ export default function Home() {
       </div>
       <ul>
         <li>SINoALICE Movie</li>
-        <li>Satsujin Workshop</li>
         <li>Senritsu Kaiki shorts re-translation</li>
+        <li>More Shiraishi movies to come</li>
       </ul>
 
       <footer>
