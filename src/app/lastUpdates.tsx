@@ -23,6 +23,7 @@ const LatestNewsButton = () => {
                             <p><b>24.06.2024</b> ー Исправил ссылки. Сейчас нет ссылки только для 「Kimyou Kitan」. Будет позже.</p>
                             <p><b>11.11.2024</b> ー Перевел фильм Sadako Pendant of Mourning.</p>
                             <p><b>22.11.2024</b> ー Перевел фильм Murder Workshop.</p>
+                            <p><b>29.08.2025</b> ー Обновил ссылки на все фильмы.</p>
                         </i>
                     </div>
                 )}
@@ -42,6 +43,7 @@ const LatestNewsButton = () => {
                             <p><b>24.06.2024</b> ー Fixed some links. Now only 「Kimyou Kitan」 link is missing, will be added later.</p>
                             <p><b>11.11.2024</b> ー Sadako Pendant of Mourning translated.</p>
                             <p><b>22.11.2024</b> ー Murder Workshop translated.</p>
+                            <p><b>29.08.2025</b> ー Updated links for all movies.</p>
                         </i>
                     </div>
                 )}

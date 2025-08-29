@@ -1,7 +1,7 @@
 const worksAndLinks = [
   {
     id: 1,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6176424",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6637655",
     work: "До Ужаса Страшные и Странные Файлы 01: Операция по захвату Кутисакэ-онна / Senritsu Kaiki File Kowasugi! File 01 - Operation Capture the Slit-Mouthed Woman",
     tag: "Kowasugi"
   },
@@ -13,7 +13,7 @@ const worksAndLinks = [
   },
   {
     id: 3,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6186259",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6638100",
     work: "До Ужаса Страшные и Странные Файлы 02: Дрожащий Призрак / Senritsu Kaiki File Kowasugi! File 02: Shivering Ghost",
     tag: "Kowasugi"
   },
@@ -37,7 +37,7 @@ const worksAndLinks = [
   },
   {
     id: 7,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6197808",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6640919",
     work: "До Ужаса Страшные и Странные Файлы 03: Легенда о Каппа-Людоеде / Senritsu Kaiki File Kowasugi! File 03: Legend of a Human-Eating Kappa",
     tag: "Kowasugi"
   },
@@ -49,7 +49,7 @@ const worksAndLinks = [
   },
   {
     id: 9,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6203850",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6644375",
     work: "До Ужаса Страшные и Странные Файлы 04: Правда! Туалетная Ханако / Senritsu Kaiki File Kowasugi! File 04: The Truth! Hanako-san in the toilet",
     tag: "Kowasugi"
   },
@@ -61,13 +61,13 @@ const worksAndLinks = [
   },
   {
     id: 11,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6212412",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6646849",
     work: "До Ужаса Страшные и Странные Файлы! Пролог Фильма: Правда про проклятие Ойвы / Senritsu Kaiki File Kowasugi! Preface: True Story of the Ghost of Yotsua",
     tag: "Kowasugi"
   },
   {
     id: 12,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6246194",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6649342",
     work: "До Ужаса Страшные и Странные Файлы! Самый Страшный Фильм в Истории / Senritsu Kaiki File Kowasugi! The Most Terrifying Movie in History",
     tag: "Kowasugi"
   },
@@ -79,7 +79,7 @@ const worksAndLinks = [
   },
   {
     id: 14,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6250691",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6651514",
     work: "До Ужаса Страшные и Странные Файлы! Последняя Глава / Senritsu Kaiki File Kowasugi! Final Chapter",
     tag: "Kowasugi"
   },
@@ -121,7 +121,7 @@ const worksAndLinks = [
   },
   {
     id: 21,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6467991",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6669680",
     work: "До Ужаса Страшный и Странный Мир / Senritsu Kaiki World Kowasugi",
     tag: "Kowasugi"
   },
@@ -166,7 +166,7 @@ const worksAndLinks = [
 const worksAndLinksEng = [
   {
     id: 1,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6176424",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6637655",
     work: "Senritsu Kaiki File Kowasugi! File 01 - Operation Capture the Slit-Mouthed Woman",
     tag: "Kowasugi"
   },
@@ -178,7 +178,7 @@ const worksAndLinksEng = [
   },
   {
     id: 3,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6186259",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6638100",
     work: "Senritsu Kaiki File Kowasugi! File 02: Shivering Ghost",
     tag: "Kowasugi"
   },
@@ -202,7 +202,7 @@ const worksAndLinksEng = [
   },
   {
     id: 7,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6197808",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6640919",
     work: "Senritsu Kaiki File Kowasugi! File 03: Legend of a Human-Eating Kappa",
     tag: "Kowasugi"
   },
@@ -214,7 +214,7 @@ const worksAndLinksEng = [
   },
   {
     id: 9,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6203850",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6644375",
     work: "Senritsu Kaiki File Kowasugi! File 04: The Truth! Hanako-san in the toilet",
     tag: "Kowasugi"
   },
@@ -226,13 +226,13 @@ const worksAndLinksEng = [
   },
   {
     id: 11,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6212412",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6646849",
     work: "Senritsu Kaiki File Kowasugi! Preface: True Story of the Ghost of Yotsua",
     tag: "Kowasugi"
   },
   {
     id: 12,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6246194",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6649342",
     work: "Senritsu Kaiki File Kowasugi! The Most Terrifying Movie in History",
     tag: "Kowasugi"
   },
@@ -244,7 +244,7 @@ const worksAndLinksEng = [
   },
   {
     id: 14,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6250691",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6651514",
     work: "Senritsu Kaiki File Kowasugi! Final Chapter",
     tag: "Kowasugi"
   },
@@ -286,7 +286,7 @@ const worksAndLinksEng = [
   },
   {
     id: 21,
-    link: "https://rutracker.org/forum/viewtopic.php?t=6467991",
+    link: "https://rutracker.org/forum/viewtopic.php?t=6669680",
     work: "Senritsu Kaiki World Kowasugi",
     tag: "Kowasugi"
   },
