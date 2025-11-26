@@ -63,9 +63,7 @@ export default function Home() {
         <h3><b>{isRussian ? home.PROCESS_RU : home.PROCESS_ENG}:</b></h3>
       </div>
       <ul>
-        <li>SINoALICE Movie</li>
-        <li>Senritsu Kaiki shorts re-translation</li>
-        <li>More Shiraishi movies to come</li>
+        <li>For now I translate movies by requests</li>
       </ul>
 
       <footer>
